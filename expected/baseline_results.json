@@ -1,0 +1,31 @@
+{
+  "source": {
+    "dataset": "FreeSolv",
+    "version": "v0.52",
+    "commit": "6c7d19b4b565537365ffd22006aa2cd4643200c6",
+    "raw_file": "database.txt",
+    "raw_sha256": "2d13f095713bc39b85f85dd7b4e5483fbb12fc694bf253bb1d92a4c4d484f260"
+  },
+  "seed": 42,
+  "n_raw": 642,
+  "n_parsed": 642,
+  "n_dup_inchikey_rows": 0,
+  "split_random": {
+    "model": "RF500_morgan2048",
+    "n_train": 506,
+    "n_test": 69,
+    "rmse": 1.8171123974772145,
+    "r2": 0.6858334383661977
+  },
+  "split_scaffold": {
+    "model": "RF500_morgan2048",
+    "n_train": 513,
+    "n_test": 65,
+    "rmse": 4.95032232011024,
+    "r2": 0.04526882703813495
+  },
+  "gaff_physics_on_scaffold_test": {
+    "rmse": 1.966570227970123,
+    "r2": 0.8493278210967719
+  }
+}
